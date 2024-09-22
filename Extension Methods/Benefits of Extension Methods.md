@@ -1,0 +1,5 @@
+- Allows existing classes to be extended
+	- Without relying on inheritance or changing the class's source code
+- If the class is sealed, there is no concept of extending its functionality
+	- Extension method helps in this problem
+- Using the dynamism of the C# enhancements in your class's design
