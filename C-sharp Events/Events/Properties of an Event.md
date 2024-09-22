@@ -1,0 +1,13 @@
+- Publisher determines when event is raised
+	- Subscribers determine what action is taken in response to the event
+- An event can have multiple subscribers
+	- A subscriber can handle multiple events from multiple publishers
+- Events that have no subscribers are never raised
+- Events are typically used to signal user action
+	- Like button clicks or menu selections in GUI
+- When events has multiple subscribers
+	- Event handlers are invoked synchronously when an event is raised
+	- To invoke asynchronously, see [Calling Syncshronous Methods Asynchronously](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/calling-synchronous-methods-asynchronously)
+- In .NET class library, events are based on the EventHandler delegate and the EventArgs base class
+- An interface can include the event as a member
+- Events in .NET follow the [observer design pattern](https://learn.microsoft.com/en-us/dotnet/standard/events/observer-design-pattern)

@@ -1,0 +1,1 @@
+The classes that receive (and/or handle) the event are called subscribers.
