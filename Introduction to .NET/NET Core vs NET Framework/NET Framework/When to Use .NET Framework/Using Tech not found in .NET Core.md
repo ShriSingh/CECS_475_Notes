@@ -1,0 +1,21 @@
+#Week1 
+.NET Core doesn't support .NET Framework technologies like:
+- ASP.NET Web Forms applications
+	- No plans to port
+- ASP.NET Web Pages applications
+	- Plans to port
+- ASP.NET SignalR server/client implementation
+	- Plans to port
+- WCF services
+	- No plans for migrations yet
+		- Still being considered
+- Workflow related services like
+	- No plans to port
+	- Examples:
+		- Windows Workflow Foundation(WF)
+		- Workflow Services(WCF + WF in a single service)
+		- WCF Data Services(Formerly known as "ADO.NET Data Services")
+- Windows Presentation Foundation(WPF)
+	- No plans to port
+- Windows Forms
+	- No plans to port
